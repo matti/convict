@@ -1,5 +1,4 @@
-require "convict/version"
-
-module Convict
-  # Your code goes here...
-end
+require_relative "convict/version"
+require_relative "convict/jail"
+require_relative "convict/cell"
+require_relative "convict/violation"
